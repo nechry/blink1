@@ -1,6 +1,6 @@
 # blink1
 
-Alpine Linux with blink1-tool and blink1-tiny-server.
+Ubuntu with blink1-tool and blink1-tiny-server.
 
 ## Usage
 
@@ -20,7 +20,7 @@ That means that your blink(1) will be device `/dev/bus/usb/003/003`.
 To run the container with the `blink1-tiny-server` running on port 8080:
 
 ```
-$ docker run -d -p 8080:8080 --name blink1 --device=/dev/bus/usb/003/003 chorn/alpine-blink1
+$ docker run -d -p 8080:8080 --name blink1 --device=/dev/bus/usb/003/003 nechry/blink1
 ```
 
 To use the `blink1-tool` command:
