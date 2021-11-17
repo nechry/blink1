@@ -23,4 +23,4 @@ RUN make OS=linux all blink1-tiny-server && make install && cp blink1-tiny-serve
 
 EXPOSE 8080
 
-ENTRYPOINT ["blink1-tiny-server",  "-p", "8080"]
+ENTRYPOINT ["blink1-tiny-server", "-p", "8080"]

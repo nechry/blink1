@@ -23,6 +23,12 @@ To run the container with the `blink1-tiny-server` running on port 8080:
 $ docker run -d -p 8080:8080 --name blink1 --device=/dev/bus/usb/003/003 nechry/blink1
 ```
 
+OR
+
+```
+$ docker run -d -p 8080:8080 --name blink1 --privileged nechry/blink1
+```
+
 To use the `blink1-tool` command:
 
 ```
